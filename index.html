@@ -1,1 +1,71 @@
-hello world
+<!DOCTYPE html>
+<html>
+	<title>Home - Alex Moica</title>
+	<head>
+		<link type="text/css" rel="stylesheet" href="css/HomeStyle.css"/>
+		<link rel="prefetch" href="images/home/profile.png">
+	</head>
+	<body>
+		<span class="main name">alex moica</span>
+		<span class="main contact">alex@alexmoica.com&emsp;(613) 322-7342</span>
+
+		<div class="bubble zMid">
+			<span class="tooltip">About Me</span>
+		</div>
+		
+		<div class="bubble zL1">
+			<span class="tooltip">R&#233sum&#233</span>
+		</div>
+		
+		<a href="https://www.linkedin.com/in/alexmoica/" target="_blank">
+			<div class="bubble zL2">
+				<span class="tooltip">LinkedIn</span>
+			</div>
+		</a>
+		
+		<div class="bubble zR1">
+			<span class="tooltip">Portfolio</span>
+		</div>
+		
+		<a href="https://github.com/alexmoica" target="_blank">
+			<div class="bubble zR2">
+				<span class="tooltip">GitHub</span>
+			</div>
+		</a>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+			$(function(){
+				$(".zMid").click(function(){
+					$(this).removeClass("bubble");
+					$(this).addClass("clickedM");
+					setTimeout(openAbout, 450);
+				});
+				
+				function openAbout(){
+					window.location.href = "About.html";
+				}
+				
+				$(".zL1").click(function(){
+					$(this).removeClass("bubble");
+					$(this).addClass("clickedL");
+					setTimeout(openResume, 450);
+				});
+				
+				function openResume(){
+					window.location.href = "Resume.html";
+				}
+				
+				$(".zR1").click(function(){
+					$(this).removeClass("bubble");
+					$(this).addClass("clickedR");
+					setTimeout(openPortfolio, 450);				
+				});
+				
+				function openPortfolio(){
+					window.location.href = "Portfolio.html";
+				}
+			});
+		</script>
+	</body>
+	<footer>COPYRIGHT &#169ALEX MOICA 2018 - ALL RIGHTS RESERVED</footer>
+</html>
