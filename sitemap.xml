@@ -1,24 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<<<<<<< HEAD
-<urlset
-      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
-            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
-
-<url>
-  <loc>http://www.alexmoica.com/</loc>
-  <lastmod>2018-08-30T22:55:33+00:00</lastmod>
-</url>
-
-
-</urlset>
-=======
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
+<?xml version="1.0" encoding="utf-8"?>
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <url>
-    <loc>http://www.alexmoica.com/index.html</loc> 
+    <loc>http://www.alexmoica.com/</loc>
   </url>
 </urlset>
->>>>>>> 4aabd95f06a62d9de244dc827dfedceb12e8e74b
+<!--<guid value="4fa92391-4607-4121-9e51-ae6accecc563" />-->
+<!--Created using XmlSitemapGenerator.org - Free HTML, RSS and XML sitemap generator-->
