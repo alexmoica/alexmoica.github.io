@@ -2,7 +2,7 @@ body {
 	background: linear-gradient(345deg, #51206d, #2272a0);
 	background-size: 100% 100%;
 }
-
+/*
 @keyframes bubbleVert {
     0% {
         margin-top: 50px;
@@ -19,7 +19,7 @@ body {
     100% { 
         margin-left:10px;
     }
-}
+}*/
 
 .main {
 	left: 50%;
@@ -86,7 +86,7 @@ body {
 	left: 50%;
 	top: 50%;
 	transform:translate(-50%, -50%);
-	animation: bubbleVert 1.75s ease-in-out infinite alternate, bubbleHoriz 1.4s ease-in-out infinite alternate;
+	/*animation: bubbleVert 1.75s ease-in-out infinite alternate, bubbleHoriz 1.4s ease-in-out infinite alternate;*/
 	background-image: url("../images/home/profile.png");
 }
 
@@ -94,7 +94,7 @@ body {
 	left: 30%;
 	top: 45%;
 	transform: scale(0.70);
-	animation: bubbleVert 1.25s ease-in-out infinite alternate, bubbleHoriz 1.7s ease-in-out infinite alternate;
+	/*animation: bubbleVert 1.25s ease-in-out infinite alternate, bubbleHoriz 1.7s ease-in-out infinite alternate;*/
 	background-image: url("../images/home/resume.png");
 }
 
@@ -102,7 +102,7 @@ body {
 	left: 57%;
 	top: 37%;
 	transform: scale(0.70);
-	animation: bubbleVert 1s ease-in-out infinite alternate, bubbleHoriz 2s ease-in-out infinite alternate;
+	/*animation: bubbleVert 1s ease-in-out infinite alternate, bubbleHoriz 2s ease-in-out infinite alternate;*/
 	background-image: url("../images/home/folder.png");
 }
 
@@ -137,7 +137,7 @@ body {
 	left: 20%;
 	top: 37%;
 	transform: scale(0.5);
-	animation: bubbleVert 1.15s ease-in-out infinite alternate, bubbleHoriz 1.1s ease-in-out infinite alternate;
+	/*animation: bubbleVert 1.15s ease-in-out infinite alternate, bubbleHoriz 1.1s ease-in-out infinite alternate;*/
 	background-image: url("../images/home/linkedin.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -147,7 +147,7 @@ body {
 	left: 67%;
 	top: 45%;
 	transform: scale(0.5);
-	animation: bubbleVert 1.75s ease-in-out infinite alternate, bubbleHoriz 1.5s ease-in-out infinite alternate;
+	/*animation: bubbleVert 1.75s ease-in-out infinite alternate, bubbleHoriz 1.5s ease-in-out infinite alternate;*/
 	background-image: url("../images/home/github.png");
 	background-repeat: no-repeat;
 	background-size: cover;
