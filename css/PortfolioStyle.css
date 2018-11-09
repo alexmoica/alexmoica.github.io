@@ -163,6 +163,10 @@ footer {
 	border-radius: 3px;
 }
 
+#androidCV {
+	background-image: url("../images/portfolio/androidCV1.png");
+}
+
 #electrify {
 	background-image: url("../images/portfolio/electrify1.png");
 }
