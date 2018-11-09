@@ -41,6 +41,15 @@
 		
 		<div class="container">
 			<div class="showcase">
+				<div class="wrapper" id="androidCV" onclick="infoClick(this.id)"></div>
+				<p id="divText">
+					<span>Android CV<br>
+						<p id="divText" style="color:#e0b711; font-size:18px;"><span>Developing</span></p>
+					</span>
+				</p>
+			</div>
+			
+			<div class="showcase">
 				<div class="wrapper" id="electrify" onclick="infoClick(this.id)"></div>
 				<p id="divText">
 					<span>Electrify<br>
@@ -89,7 +98,22 @@
 				img2.style.visibility = "visible";
 				
 				
-				if (clickID == "electrify") {
+				if (clickID == "androidCV") {
+					infoTitle.innerHTML = "Android CV<span class='developing'>Developing</span>";
+					infoDesc.innerHTML =
+					"Android CV integrates Open Computer Vision with the Android platform to create "+
+					"a mobile app capable of doing face detection and processing. It can currently "+
+					"detect over 10 concurrent faces and can track their head movements, with an option "+
+					"to switch between front and back cameras. Android CV is also memory efficient and "+
+					"runs smoothly even on low end smartphones. I created Android CV to learn "+
+					"cross-platform integration and how to utilize face processing techniques to produce "+
+					"usable data. I have high ambition with this project - aiming to add face recognition, "+
+					"a self-updating database, and eventually progress to a wearable technology<br><br>"+
+					"<i>Relevant skills developed:<br><b>Java</b>, <b>Android Studio</b>, <b>OpenCV</b></i></span>";
+					imageExpand.style.backgroundImage = 'url("images/portfolio/androidCV1.png")';
+					img1.src = "images/portfolio/androidCV1.png";
+					img2.src = "images/portfolio/androidCV2.png";
+				} else if (clickID == "electrify") {
 					infoTitle.innerHTML = "Electrify<span class='developing'>Developing</span>";
 					infoDesc.innerHTML = 
 					"Electrify is an android application written in Java using Android Studio. "+
