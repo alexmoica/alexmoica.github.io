@@ -105,7 +105,7 @@ body {
 	/*animation: bubbleVert 1s ease-in-out infinite alternate, bubbleHoriz 2s ease-in-out infinite alternate;*/
 	background-image: url("../images/home/folder.png");
 }
-
+/*
 .clickedM, .clickedL, .clickedR {
 	position: absolute;
 	animation: pause;
@@ -131,7 +131,7 @@ body {
 
 .clickedR {
 	background-image: url("../images/portfolio/shapes.png");
-}
+}*/
 
 .zL2 {
 	left: 20%;
