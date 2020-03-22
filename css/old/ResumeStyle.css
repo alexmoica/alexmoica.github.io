@@ -1,0 +1,200 @@
+body {
+	background: #bb72cc;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+footer {
+	overflow: hidden;
+	background-color: #444;
+	text-align: center;
+}
+
+.titleText {
+	margin-left: 50%;
+	transform:translate(-50%, -10%);
+	height:160px;
+	width: 370px;
+	background-color: rgba(100, 100, 100, 0.75);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 90%;
+}
+
+.content {
+	display: inline-block;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.resumeInfo {
+	font-size: 18px;
+	text-align: left;
+	margin: 10px auto;
+}
+
+.collapsible {
+	font-family: "Helvetica";
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	margin-top: 10px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	font-size: 20px;
+}
+
+.active, .collapsible:hover {
+	background-color: #ccc;
+}
+
+.collContent {
+	max-height: 0px;
+	background-color: #f1f1f1;	
+	padding: 0 18px;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+.collapsible:after {
+	content: "\25BE";
+	font-size: 18px;
+	color: #444;
+	float: right;
+	margin-left: 5px;
+}
+
+.active:after {
+	content: "\25B4";
+}
+
+.download {
+	width: 250px;
+	height: 50px;
+	margin-top: 50px;
+	margin-left: 50%;
+	transform:translate(-50%, 0);
+	cursor: pointer;
+	border-radius: 10px;
+	border: 2px solid #1daa15;
+	font-family: "Simplex";
+	font-size: 16px;
+	font-weight: bold;
+	color: #444;
+	text-decoration: none;
+	background-color: #fff;
+}
+
+.download:hover {
+	transition: 0.4s;
+	background-color: #1daa15;
+	color: #fff;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #444;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+#navbar a {
+	font-weight: 600;
+	font-family: "Helvetica";
+	float: right;
+	display: block;
+	color: #ccc;
+	text-align: center;
+	padding: 12px;
+	padding-top: 8px;
+	text-decoration: none;
+}
+
+#navbar a.current {
+	color: #fff;
+}
+
+#navbar a:hover {
+	color: #fff;
+}
+
+#home, #about, #resume, #portfolio {
+	transform:translate(0, 5%);
+}
+
+#navGit, #navLinked {
+	width: 20px;
+	height: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+}
+
+#navGit {
+	background-image: url("../images/navbar/githubBlack.png");
+}
+
+#navGit:hover{
+	background-image: url("../images/navbar/githubWhite.png");
+}
+
+#navLinked {
+	background-image: url("../images/navbar/linkedinBlack.png");
+}
+
+#navLinked:hover {
+	background-image: url("../images/navbar/linkedinWhite.png");
+}
+
+#se {
+	background-image: url("../images/resume/s&e.png");
+}
+
+#ev {
+	background-image: url("../images/resume/e&v.png");
+}
+
+#educationColumn {
+	column-count: 2;
+}
+
+#slide1 {
+	background-image: url("../images/resume/1_skills.png");
+	height: 115px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 240px 0 260px 0;
+	background-size: cover;
+}
+
+#slide3 {
+	background-image: url("../images/resume/2_network.png");
+	height: 100px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 200px 0;
+	background-size: cover;
+}
+
+#slideWhite {
+	display: flex;
+	background-color: #fff;
+	color: #333333;
+	overflow: hidden;
+	padding: 50px 0;
+}
+
+#copyright {
+	color: #fff;
+	font-family: "Helvetica";
+	font-size: 10px;
+}

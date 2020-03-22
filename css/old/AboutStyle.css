@@ -1,0 +1,159 @@
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #43cc65 url("../images/about/stars.png");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+footer {
+	overflow: hidden;
+	background-color: #444;
+	text-align: center;
+}
+
+.corner {
+	content: '';
+	background-color: rgba(255, 255, 223, 0.8);
+	height: 50px;
+	position: absolute;
+	top: -20px;
+	width: 100px;
+	box-shadow: 0 5px 10px -7px hsla(0, 0% ,0%, 0.5);
+}
+
+.info {
+	padding-left: 80px;
+	padding-right: 80px;
+	text-align: justify;
+	font-family: "Helvetica Neue";
+	color: #444;
+}
+
+#infoBody {
+	padding-top: 60px;
+	font-size: 23px;
+	line-height: 1.25;
+}
+
+#portrait {
+	float: right;
+	margin-top: -20px;
+	margin-right: 70px;
+	margin-left: 20px;
+	width: 220px;
+	height: 300px;
+	border: 2px solid #444;
+}
+
+#signature {
+	width: 220px;
+	margin-top: 10px;
+	margin-bottom: 60px;
+}
+
+#container {
+	margin: 100px 12%;
+	background-color: #eee;
+	position: relative;
+	box-shadow: 0 1px 7px hsla(0, 0%, 0%, 0.2);	
+}
+
+#TL {
+	left: -50px;
+	transform: rotate(-45deg);
+}
+
+#TR {
+	right: -50px;
+	transform: rotate(45deg);
+}
+
+#BL {
+	top: 97%;
+	left: -50px;
+	transform: rotate(45deg);
+}
+
+#BR {
+	top: 97%;
+	right: -50px;
+	transform: rotate(-45deg);
+}
+
+#intro {
+	margin: 50px 12%;
+	margin-bottom: 100px;
+	width: 300px;
+	height: 300px;
+	background-image: url("../images/about/intro.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #444;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+#navbar a {
+	font-weight: 600;
+	font-family: "Helvetica";
+	float: right;
+	display: block;
+	color: #ccc;
+	text-align: center;
+	padding: 12px;
+	padding-top: 8px;
+	text-decoration: none;
+}
+
+#navbar a.current {
+	color: #fff;
+}
+
+#navbar a:hover {
+	color: #fff;
+}
+
+#home, #about, #resume, #portfolio {
+	transform:translate(0, 5%);
+}
+
+#navGit, #navLinked {
+	width: 20px;
+	height: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+}
+
+#navGit {
+	background-image: url("../images/navbar/githubBlack.png");
+}
+
+#navGit:hover{
+	background-image: url("../images/navbar/githubWhite.png");
+}
+
+#navLinked {
+	background-image: url("../images/navbar/linkedinBlack.png");
+}
+
+#navLinked:hover {
+	background-image: url("../images/navbar/linkedinWhite.png");
+}
+
+#copyright {
+	color: #fff;
+	font-family: "Helvetica";
+	font-size: 10px;
+}

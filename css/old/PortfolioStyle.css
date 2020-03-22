@@ -1,0 +1,243 @@
+body {
+	background: #a2ffff url("../images/portfolio/shapes.png");
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+img {
+	border: 1px solid #444;
+	border-radius: 5px;
+	cursor: pointer;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+}
+
+footer {
+	overflow: hidden;
+	background-color: #444;
+	text-align: center;
+}
+
+.container {
+	height: 620px;
+}
+
+.showcase {
+	vertical-align: top;
+	border: 1px solid #444;	
+	border-radius: 5px;
+	transform:translate(20%, 25%);
+	display: inline-block;
+	width: 300px;
+	height: 200px;
+	font-family: "Helvetica";
+	font-size: 25px;
+	color: #fff;
+	line-height: 8px;
+	text-align: center;
+	overflow: hidden;
+}
+
+.wrapper {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	backface-visibility: hidden;
+	cursor: pointer;
+	transition: 0.5s;
+}
+
+.wrapper:before {
+	content: '';
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-color: rgba(200, 200, 200, 0.2);
+}
+
+.showcase:hover .wrapper {
+	transform: scale(1.15);
+}
+
+.showcase:hover .wrapper:before {
+	display: block;
+}
+
+.clicked {
+	border: 10px solid #444;	
+}
+
+.column {
+	float: left;
+	width: 20%;
+	margin-left: 5%;
+	transform: translate(5%, 0%);
+}
+
+.developing {
+	float: right;
+	color: #e0b711;
+}
+
+.released {
+	float: right;
+	color: #6ef442;
+}
+
+#imageExpand {
+	width: 500px;
+	height: 280px;
+	margin: 2%;
+	margin-top: 4%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0;
+	visibility: hidden;
+	transition: 0.4s;
+}
+
+#infoTitle {
+	font-family: "Helvetica";
+	font-size: 0px;
+	height: 0;
+	padding: 2%;
+	transition: 0.4s;
+}
+
+#info {
+	visibility: hidden;
+	position: fixed;
+	background-color: #fff;
+	top: 52%;
+	left: 50%;
+	transform:translate(-50%, -50%);
+	width: 900px;
+	height: 500px;
+	border: 1px solid black;
+	border-radius: 10px;
+	opacity: 0;
+	transition: 0.4s;
+	z-index: 2;
+}
+
+#infoDescription {
+	position: absolute;
+	height: 0;
+	font-family: "Helvetica Neue";
+	font-size: 18px;
+	text-align: justify;
+	margin-top: 4%;
+	margin-left: 60%;
+	margin-right: 2%;
+	transition: 0.4s;
+}
+
+#grayOut {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+	background-color: rgba(240, 240, 240, 0.8);
+	transition: 0.4s;
+	opacity: 0;
+	visibility: hidden;
+	z-index: 1;
+}
+
+#divText {
+	transform: translate(0, -1000%);
+}
+
+#divText span {
+	background-color: rgba(0, 0, 0, 0.8);
+	border-radius: 3px;
+}
+
+#androidCV {
+	background-image: url("../images/portfolio/androidCV1.png");
+}
+
+#electrify {
+	background-image: url("../images/portfolio/electrify1.png");
+}
+
+#website {
+	background-image: url("../images/portfolio/site1.png");
+}
+
+#assets {
+	background-image: url("../images/portfolio/assets1.png");
+}
+
+#navbar {
+	overflow: hidden;
+	background-color: #444;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+}
+
+#navbar a {
+	font-weight: 600;
+	font-family: "Helvetica";
+	float: right;
+	display: block;
+	color: #ccc;
+	text-align: center;
+	padding: 12px;
+	padding-top: 8px;
+	text-decoration: none;
+}
+
+#navbar a.current {
+	color: #fff;
+}
+
+#navbar a:hover {
+	color: #fff;
+}
+
+#home, #about, #resume, #portfolio {
+	transform:translate(0, 5%);
+}
+
+#navGit, #navLinked {
+	width: 20px;
+	height: 20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+}
+
+#navGit {
+	background-image: url("../images/navbar/githubBlack.png");
+}
+
+#navGit:hover{
+	background-image: url("../images/navbar/githubWhite.png");
+}
+
+#navLinked {
+	background-image: url("../images/navbar/linkedinBlack.png");
+}
+
+#navLinked:hover {
+	background-image: url("../images/navbar/linkedinWhite.png");
+}
+
+#copyright {
+	color: #fff;
+	font-family: "Helvetica";
+	font-size: 10px;
+}
