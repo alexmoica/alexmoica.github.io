@@ -298,6 +298,10 @@
 
 		}
 
+	.invert {
+		filter: invert(100%);
+	}
+
 /* Icons */
 
 	ul.icons {
@@ -887,7 +891,7 @@
 	.resumeInfo, .educationColumn{
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 0.8rem;
-		text-align: left;
+		text-align: justify;
 		color:#000;
 		margin: 0.6rem auto;
 	}
