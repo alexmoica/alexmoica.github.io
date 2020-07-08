@@ -72,7 +72,8 @@
 	}
 
 	p {
-		margin: 0 0 2rem 0;
+		color: rgba(255, 255, 255, 0.9);
+		text-align: justify;
 	}
 
 /* Headings */
@@ -244,6 +245,8 @@
 
 		.image.left, .image.right {
 			max-width: 50%;
+			margin-top: 1rem;
+			margin-bottom: 2rem;
 		}
 
 			.image.left img, .image.right img {
@@ -252,14 +255,12 @@
 
 		.image.left {
 			float: left;
-			padding: 0 1.5em 1em 0;
-			top: 0.25em;
+			padding: 0 1em 1em 0;
 		}
 
 		.image.right {
 			float: right;
-			padding: 0 0 1em 1.5em;
-			top: 0.25em;
+			padding: 0 0 1em 1em;
 		}
 
 		.image.fit {
@@ -855,7 +856,7 @@
 		text-align: left;
 		
 		/* remove outline from buttons */
-		color: #000;
+		background-color: rgba(255, 255, 255, 0.80);
 	  	color: rgba(0,0,0,0);
 	 	text-shadow: 0 0 0 #000;
 	}
@@ -867,7 +868,7 @@
 		}
 
 		.toggle, .collapsible:hover {
-			background-color: rgba(255, 255, 255, 0.80);
+			background-color: rgba(255, 255, 255, 0.75);
 
 		}
 
@@ -882,7 +883,7 @@
 
 	.collContent {
 		max-height: 0;
-		background-color: #f1f1f1;	
+		background-color: rgba(255, 255, 255, 0.90);
 		padding: 0 1rem;
 		overflow: hidden;
 		transition: max-height 0.2s ease-out;
@@ -891,7 +892,6 @@
 	.resumeInfo, .educationColumn{
 		font-family: "Source Sans Pro", sans-serif;
 		font-size: 0.8rem;
-		text-align: justify;
 		color:#000;
 		margin: 0.6rem auto;
 	}
