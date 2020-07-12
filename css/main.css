@@ -821,8 +821,8 @@
 		
 		/* remove outline from buttons */
 		color: #fff;
-	  	color: rgba(255,255,255,0);
-	 	text-shadow: 0 0 0 #fff;
+		color: rgba(255,255,255,0);
+		text-shadow: 0 0 0 #fff;
 		
 		margin-top: 2rem;
 		float:right;
@@ -860,8 +860,8 @@
 		
 		/* remove outline from buttons */
 		background-color: rgba(255, 255, 255, 0.80);
-	  	color: rgba(0,0,0,0);
-	 	text-shadow: 0 0 0 #000;
+		color: rgba(0,0,0,0);
+		text-shadow: 0 0 0 #000;
 	}
 
 		.collapsible:after {
