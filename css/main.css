@@ -899,9 +899,10 @@
 		margin: 0.6rem auto;
 	}
 
-		.educationColumn {
-			column-count: 2;
-		}
+	.educationColumn {
+		column-count: 2;
+	}
+
 
 /* Project Modals */
 	.overlay {
