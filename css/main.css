@@ -933,3 +933,7 @@
 		from {transform:scale(0)}
 		to {transform:scale(1)}
 	}
+
+#secret {
+	text-decoration: none;
+}
