@@ -1,0 +1,123 @@
+p a {
+    color: #62c4ff;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p a:hover {
+    color: #42a4df;
+}
+
+article p span {
+    color: #6ef442;
+}
+
+.copyright {
+    text-align: center;
+}
+
+#projects p b {
+    color: #fdfdfd;
+}
+
+#secret {
+    color: white;
+    font-weight: normal;
+}
+
+.download {
+	height: 2.5rem;
+	background-color: transparent;
+	color: rgba(255, 255, 255, 0);
+	text-shadow: 0 0 0 #fff;
+	font-size: .8rem;
+    padding: 0 20px;
+    margin-top: 1.4rem;
+	text-align: center;
+}
+
+.collapsible {
+	width: 100%;
+	margin-top: .5rem;
+	padding: .75rem;
+	font-size: .85rem;
+	text-align: left;
+	background-color: initial;
+    border: 2px solid #bbb;
+    color: #fdfdfd;
+}
+
+.collapsible:after {
+	content: "\25BE";
+	color: #bbb;
+	float: right;
+}
+
+.collapsible:hover,
+.toggle {
+	background-color: rgba(255, 255, 255, .05);
+}
+
+.collapsible:active,
+.toggle {
+	background-color: rgba(255, 255, 255, .05);
+}
+
+.toggle:after {
+	content: "\25B4";
+}
+
+.collContent {
+	max-height: 0;
+	background-color: rgba(255, 255, 255, .03);
+	padding: 0 1rem;
+	overflow: hidden;
+	transition: max-height .2s ease-out;
+}
+
+.resumeInfo {
+	font-size: .9rem;
+	margin: .6rem auto;
+}
+
+.archive {
+    padding-top: 32px;
+}
+
+.image.left.last {
+    margin-bottom: 32px;
+}
+
+.image.right.last {
+    margin-bottom: 32px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icons li {
+    margin-left: 15px;
+}
+
+@media screen and (max-width:736px) {
+    .contact-info {
+        margin-bottom: 20px;
+    }
+
+    .contact-container {
+		display: initial;
+	}
+
+    .icons li {
+        margin-left: 0;
+    }
+
+    ul#icons li a {
+        height: 2.25rem;
+        line-height: 2.25rem;
+        width: 2.25rem
+    }
+}
